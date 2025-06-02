@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <!-- Exclude any *_Tests.cs or *Tests.cs files so only implementation code is compiled -->
+  <ItemGroup>
+    <Compile Remove="**/*Tests.cs" />
+    <Compile Remove="**/*_Tests.cs" />
+  </ItemGroup>
+</Project> 
