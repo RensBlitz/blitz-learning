@@ -42,11 +42,7 @@ public class ReferenceTypeDeclaration {
         String name = null;     // Placeholder
         int[] numbers = null;  // Placeholder
 
-        // Replace placeholders with actual initialization
-        // Example: name = "Alice";
-        // Example: numbers = new int[]{1, 2, 3};
-
-        return new Object[]{name, numbers}; // Replace with your initialized variables
+        return new Object[]{name, numbers};
     }
 
     /**

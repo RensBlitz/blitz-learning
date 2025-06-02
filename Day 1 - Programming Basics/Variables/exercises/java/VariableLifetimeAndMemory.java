@@ -39,10 +39,9 @@ public class VariableLifetimeAndMemory {
      * @return An array with [stackVariable, heapVariable]
      */
     public static int[] demonstrateLifetime() {
-        int stackVariable = 7; // Local variable (stack)
-        VariableLifetimeAndMemory obj = new VariableLifetimeAndMemory(); // Object (heap)
-        int heapVar = obj.heapVariable;
-        return new int[] { stackVariable, heapVar };
+        // TODO: Implement your solution here
+        
+        return null; // Replace with your implementation
     }
 
     private static void testLifetime() {

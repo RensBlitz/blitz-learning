@@ -44,23 +44,7 @@ public class ConstantsAndImmutability {
     public static Object[] workWithConstants() {
         // TODO: Implement your solution here
         
-        // 1. Declare a final integer
-        // Your code here (replace this line with your implementation)
-        int MAX_VALUE = 0; // This should be final; replace with correct implementation
-        
-        // 2. Try to change the value (this will cause a compile error)
-        // Uncomment to see the error:
-        // MAX_VALUE = 200;
-        
-        // 3. Declare a final array
-        // Your code here (replace this line with your implementation)
-        int[] FIXED_ARRAY = null; // This should be final; replace with correct implementation
-        
-        // 4. Modify an element (allowed because the array reference is final, not its contents)
-        // Uncomment and implement:
-        // FIXED_ARRAY[0] = 99;
-        
-        return new Object[]{MAX_VALUE, FIXED_ARRAY};
+        return new Object[]{0, null};
     }
 
     /**
@@ -76,13 +60,7 @@ public class ConstantsAndImmutability {
     public static Object[] demonstrateStringImmutability() {
         // TODO: Implement your solution here
         
-        // Create an original string
-        String original = null; // Replace with actual implementation
-        
-        // Create a "modified" version
-        String modified = null; // Replace with actual implementation
-        
-        return new Object[]{original, modified};
+        return new Object[]{null, null};
     }
 
     private static void testConstants() {

@@ -39,10 +39,9 @@ public class NamingConventionsAndBestPractices {
      * @return An array with [age, price, priceWithTax]
      */
     public static Object[] demonstrateNaming() {
-        int userAge = 30;
-        double productPrice = 100.0;
-        double priceWithTax = productPrice * (1 + TAX_RATE);
-        return new Object[] { userAge, productPrice, priceWithTax };
+        // TODO: Implement your solution here
+        
+        return null; // Replace with your implementation
     }
 
     private static void testNaming() {

@@ -43,19 +43,7 @@ public class StringAndCharOperations {
     public static Object[] performStringCharOperations(String inputString, char charToConvert) {
         // TODO: Implement your solution here
         
-        // 1. Extract the first character from the string
-        char firstChar = ' '; // Replace with actual implementation
-        
-        // 2. Extract the last character from the string
-        char lastChar = ' '; // Replace with actual implementation
-        
-        // 3. Convert the charToConvert to a String
-        String convertedString = ""; // Replace with actual implementation
-        
-        // 4. Concatenate the charToConvert to the end of inputString
-        String concatenatedString = ""; // Replace with actual implementation
-        
-        return new Object[]{firstChar, lastChar, convertedString, concatenatedString};
+        return new Object[]{' ', ' ', "", ""};
     }
 
     private static void testStringCharOperations() {

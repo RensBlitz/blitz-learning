@@ -46,10 +46,7 @@ public class PrimitiveTypeDeclaration {
         char grade = ' ';   // Placeholder
         boolean isActive = false; // Placeholder
 
-        // Replace placeholders with actual initialization
-        // Example: age = 30;
-
-        return new Object[]{age, price, grade, isActive}; // Replace with your initialized variables
+        return new Object[]{age, price, grade, isActive};
     }
 
     /**

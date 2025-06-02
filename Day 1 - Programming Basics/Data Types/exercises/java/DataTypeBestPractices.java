@@ -38,15 +38,9 @@ public class DataTypeBestPractices {
      */
     public static int fixNullReference() {
         // TODO: Fix the null reference issue
-        int[] numbers = null; // This line causes a NullPointerException when accessing array elements
+        // Create an array with elements 1, 2, 3 and return their sum
         
-        // Calculate the sum
-        int sum = 0;
-        for (int i = 0; i < 3; i++) {
-            sum += numbers[i]; // This line throws NullPointerException
-        }
-        
-        return sum;
+        return 0;
     }
 
     /**
@@ -58,11 +52,9 @@ public class DataTypeBestPractices {
      */
     public static double fixIntegerDivision() {
         // TODO: Fix the integer division issue
-        int a = 5;
-        int b = 2;
-        double result = a / b; // This performs integer division, giving 2 instead of 2.5
+        // Divide 5 by 2 to get 2.5 (not 2)
         
-        return result;
+        return 0.0;
     }
 
     /**
@@ -76,7 +68,9 @@ public class DataTypeBestPractices {
      */
     public static boolean fixStringEquality(String s1, String s2) {
         // TODO: Fix the string comparison issue
-        return s1 == s2; // This checks reference equality, not content equality
+        // Compare the content of the strings, not their references
+        
+        return false;
     }
 
     private static void testFixNullReference() {

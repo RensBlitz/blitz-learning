@@ -35,14 +35,9 @@ public class CommonVariablePitfalls {
      * @return true if all best practices are followed, false otherwise
      */
     public static boolean avoidPitfalls() {
-        int outerValue = 5;
-        // Avoid shadowing by using a different name
-        int innerValue = 10;
-        String s1 = "test";
-        String s2 = new String("test");
-        boolean stringEquals = s1.equals(s2); // Correct way
-        // All variables are initialized, no shadowing, correct comparison
-        return (outerValue == 5 && innerValue == 10 && stringEquals);
+        // TODO: Implement your solution here
+        
+        return false; // Replace with your implementation
     }
 
     private static void testPitfalls() {

@@ -37,8 +37,7 @@ public class TypeConversion {
      */
     public static double performWidening(int intValue) {
         // TODO: Implement your solution here
-        double doubleValue = 0.0; // Placeholder
-        return doubleValue; // Replace with your implementation
+        return 0.0;
     }
 
     /**
@@ -51,8 +50,7 @@ public class TypeConversion {
      */
     public static int performNarrowing(double doubleValue) {
         // TODO: Implement your solution here
-        int intValue = 0; // Placeholder
-        return intValue; // Replace with your implementation
+        return 0;
     }
 
     private static void testWideningConversion() {

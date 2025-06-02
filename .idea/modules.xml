@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Day 1 - Programming Basics/Classes and Objects/Classes and Objects.iml" filepath="$PROJECT_DIR$/Day 1 - Programming Basics/Classes and Objects/Classes and Objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day 1 - Programming Basics/Control Flow/Control Flow.iml" filepath="$PROJECT_DIR$/Day 1 - Programming Basics/Control Flow/Control Flow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day 1 - Programming Basics/Data Structures/Data Structures.iml" filepath="$PROJECT_DIR$/Day 1 - Programming Basics/Data Structures/Data Structures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day 1 - Programming Basics/Data Types/Data Types.iml" filepath="$PROJECT_DIR$/Day 1 - Programming Basics/Data Types/Data Types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day 1 - Programming Basics/Methods/Methods.iml" filepath="$PROJECT_DIR$/Day 1 - Programming Basics/Methods/Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day 1 - Programming Basics/Operators/Operators.iml" filepath="$PROJECT_DIR$/Day 1 - Programming Basics/Operators/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day 1 - Programming Basics/Variables/Variables.iml" filepath="$PROJECT_DIR$/Day 1 - Programming Basics/Variables/Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/traineeship-learning.iml" filepath="$PROJECT_DIR$/.idea/traineeship-learning.iml" />
+    </modules>
+  </component>
+</project>

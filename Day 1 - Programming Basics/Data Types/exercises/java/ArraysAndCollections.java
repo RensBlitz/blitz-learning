@@ -41,19 +41,7 @@ public class ArraysAndCollections {
     public static Object[] workWithArrays() {
         // TODO: Implement your solution here
         
-        // 1. Declare and initialize an array of integers 1 through 5
-        int[] numbers = null; // Replace with actual implementation
-        
-        // 2. Declare and initialize an array of 3 strings with values "First", "Second", "Third"
-        String[] strings = null; // Replace with actual implementation
-        
-        // 3. Create a copy of the strings array and change the element at index 1 to "Updated"
-        String[] updatedStrings = null; // Replace with actual implementation
-        
-        // 4. Calculate the sum of all integers in the numbers array
-        int sum = 0; // Replace with actual implementation
-        
-        return new Object[]{numbers, strings, updatedStrings, sum};
+        return new Object[]{null, null, null, 0};
     }
 
     private static void testArrays() {
