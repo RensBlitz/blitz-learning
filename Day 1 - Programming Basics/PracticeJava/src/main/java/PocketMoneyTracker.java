@@ -1,5 +1,3 @@
-package exercises;
-
 /**
  * Exercise 1 – Pocket-Money Tracker
  * Jana gets €5 on Monday and €3 on Wednesday.

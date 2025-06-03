@@ -1,5 +1,3 @@
-package exercises;
-
 /**
  * Exercise 2 – Cafe Tip-Jar
  * Compute bill + tip (percentage).

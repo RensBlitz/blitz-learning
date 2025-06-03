@@ -1,5 +1,3 @@
-package exercises;
-
 /**
  * Exercise 7 – Fantasy-Potion Mix
  * 30 % dragon blood, 50 % unicorn tears, 20 % stardust.
