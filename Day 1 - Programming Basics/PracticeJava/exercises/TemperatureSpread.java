@@ -1,3 +1,5 @@
+package exercises;
+
 /**
  * Exercise 5 – Temperature Spread
  * Return difference and average in a two-element array:

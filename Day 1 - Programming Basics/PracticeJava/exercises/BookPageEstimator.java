@@ -1,3 +1,4 @@
+
 /**
  * Exercise 4 – Book-Page Estimator
  * pages/hour × minutes/60 → pages readable today.

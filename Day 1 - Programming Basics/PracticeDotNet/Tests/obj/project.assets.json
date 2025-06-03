@@ -1708,6 +1708,16 @@
         "build": {
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Exercises/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Exercises.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Exercises.dll": {}
+        }
       }
     }
   },
@@ -5497,10 +5507,16 @@
         "xunit.runner.visualstudio.2.5.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Exercises/1.0.0": {
+      "type": "project",
+      "path": "../Exercises/Exercises.csproj",
+      "msbuildProject": "../Exercises/Exercises.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Exercises >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
@@ -5513,11 +5529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/PracticeDotNet/Tests/Tests.csproj",
+      "projectUniqueName": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/Day 1 - Programming Basics/PracticeDotNet/Tests/Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/PracticeDotNet/Tests/Tests.csproj",
+      "projectPath": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/Day 1 - Programming Basics/PracticeDotNet/Tests/Tests.csproj",
       "packagesPath": "/Users/rensbressers/.nuget/packages/",
-      "outputPath": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/PracticeDotNet/Tests/obj/",
+      "outputPath": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/Day 1 - Programming Basics/PracticeDotNet/Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/rensbressers/.nuget/NuGet/NuGet.Config"
@@ -5531,7 +5547,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/Day 1 - Programming Basics/PracticeDotNet/Exercises/Exercises.csproj": {
+              "projectPath": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/Day 1 - Programming Basics/PracticeDotNet/Exercises/Exercises.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

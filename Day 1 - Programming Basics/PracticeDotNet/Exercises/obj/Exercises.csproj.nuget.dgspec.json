@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/PracticeDotNet/Exercises/Exercises.csproj": {}
+    "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/Day 1 - Programming Basics/PracticeDotNet/Exercises/Exercises.csproj": {}
   },
   "projects": {
-    "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/PracticeDotNet/Exercises/Exercises.csproj": {
+    "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/Day 1 - Programming Basics/PracticeDotNet/Exercises/Exercises.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/PracticeDotNet/Exercises/Exercises.csproj",
+        "projectUniqueName": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/Day 1 - Programming Basics/PracticeDotNet/Exercises/Exercises.csproj",
         "projectName": "Exercises",
-        "projectPath": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/PracticeDotNet/Exercises/Exercises.csproj",
+        "projectPath": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/Day 1 - Programming Basics/PracticeDotNet/Exercises/Exercises.csproj",
         "packagesPath": "/Users/rensbressers/.nuget/packages/",
-        "outputPath": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/PracticeDotNet/Exercises/obj/",
+        "outputPath": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/Day 1 - Programming Basics/PracticeDotNet/Exercises/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/rensbressers/.nuget/NuGet/NuGet.Config"

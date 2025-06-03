@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iMG/rf7u9iw=",
+  "dgSpecHash": "HLGCJoK3L1I=",
   "success": true,
-  "projectFilePath": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/PracticeDotNet/Tests/Tests.csproj",
+  "projectFilePath": "/Users/rensbressers/FunProjects/createment/java-traineeship-exercises/traineeship-learning/Day 1 - Programming Basics/PracticeDotNet/Tests/Tests.csproj",
   "expectedPackageFiles": [
     "/Users/rensbressers/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/Users/rensbressers/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",

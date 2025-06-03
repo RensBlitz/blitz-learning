@@ -1,3 +1,5 @@
+package exercises;
+
 /**
  * Exercise 3 – Moon-Weight Converter
  * Weight on Moon is 16.5 % of Earth weight.

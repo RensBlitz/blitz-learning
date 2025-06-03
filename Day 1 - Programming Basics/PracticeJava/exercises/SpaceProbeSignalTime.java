@@ -1,3 +1,5 @@
+package exercises;
+
 /**
  * Exercise 6 – Space Probe Signal-Time
  * Compute round-trip time (seconds) for given one-way distance (km).
