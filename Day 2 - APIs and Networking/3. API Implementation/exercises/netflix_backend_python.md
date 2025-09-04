@@ -6,11 +6,12 @@ A beginner-friendly, step-by-step guide to build a tiny **“Mini-Netflix”** R
 - **Does not** use auto-ID generators like counters; instead, you compute IDs manually.
 - Provides **function signatures and return statements only**, plus precise `# implement the following here` comments.
 
+
 ---
 
 ## 0) Prerequisites (Windows)
 1. Install **Python** (3.10–3.12 recommended).  
-   Verify in PowerShell:
+   Verify in terminal (bash):
    ```
    python --version
    ```
@@ -20,17 +21,19 @@ A beginner-friendly, step-by-step guide to build a tiny **“Mini-Netflix”** R
 ---
 
 ## 1) Create the project in PyCharm
-1. Open **PyCharm** → **New Project**.
+1. Open **PyCharm** → **New Project** → **Flask**.
 2. **Location**: choose a folder, e.g., `C:\dev\mini-netflix-flask`.
-3. **Interpreter**:  
+3. **Environment**:  
    - Select **New Virtualenv** (recommended).  
-   - Base interpreter: your Python installation (e.g., `Python 3.12`).
-4. Create a file **`requirements.txt`** in the root:
+   - Base interpreter: choose your Python version (e.g., `Python 3.12`).
+4. Click **Create**.
+5. If PyCharm generated `main.py`, rename it to `app.py` (or create `app.py`).
+6. Create a file **`requirements.txt`** in the root (if not present):
    ```
    Flask==3.0.3
    flask-cors==4.0.1   # optional, only needed if calling from a browser frontend
    ```
-5. In PyCharm terminal:
+7. In PyCharm terminal (if needed):
    ```
    pip install -r requirements.txt
    ```
@@ -222,13 +225,13 @@ To test your API endpoints, use [Postman](https://www.postman.com/downloads/):
 2. **Create a new request** for each endpoint:
    - **List all movies**
       - Method: `GET`
-      - URL: `http://localhost:8080/api/movies`
+      - URL: `http://localhost:5000/api/movies`
    - **Get one movie**
       - Method: `GET`
-      - URL: `http://localhost:8080/api/movies/1`
+      - URL: `http://localhost:5000/api/movies/1`
    - **Create a movie**
       - Method: `POST`
-      - URL: `http://localhost:8080/api/movies`
+      - URL: `http://localhost:5000/api/movies`
       - Body: Select `raw` and `JSON`, then paste:
         ```json
         {
@@ -240,7 +243,7 @@ To test your API endpoints, use [Postman](https://www.postman.com/downloads/):
         ```
    - **Update a movie**
       - Method: `PUT`
-      - URL: `http://localhost:8080/api/movies/2`
+      - URL: `http://localhost:5000/api/movies/2`
       - Body: Select `raw` and `JSON`, then paste:
         ```json
         {
@@ -252,7 +255,7 @@ To test your API endpoints, use [Postman](https://www.postman.com/downloads/):
         ```
    - **Delete a movie**
       - Method: `DELETE`
-      - URL: `http://localhost:8080/api/movies/2`
+      - URL: `http://localhost:5000/api/movies/2`
 
 3. **Send each request** and check the response in Postman.
 
