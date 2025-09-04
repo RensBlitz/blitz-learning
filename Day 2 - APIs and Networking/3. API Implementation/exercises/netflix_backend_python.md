@@ -54,7 +54,45 @@ mini-netflix-flask/
 
 ---
 
-## 3) Main application
+## 3) Step-by-step build-up
+
+Follow these steps to grow the API gradually. Use the code snippets in sections 4–6 and only implement the part described in each step.
+
+1. Step 1 — Create models
+   - Create `models/movie.py` and `models/movie_input.py` as shown in section 5.
+   - These define the domain object (`Movie`) and the request body (`MovieInput`).
+
+2. Step 2 — Wire the app and seed data
+   - In `app.py` (section 4): create the Flask app, optionally enable CORS, create the in-memory `movies` list, add the `seed()` function, and register the controller blueprint: `app.register_blueprint(movies_bp(movies))`.
+   - You should now be able to run the app (see section 8) even before implementing controller logic.
+
+3. Step 3 — Implement GET all
+   - In the controller (section 6), inside `get(self, id=None)`, implement the branch for listing all movies (when `id` is `None`).
+   - Convert each `Movie` to a dict with `to_dict()` and return JSON with status 200.
+
+4. Step 4 — Implement GET by id
+   - In the same `get` method, implement the branch for a specific id.
+   - Return the movie as JSON (200) if found; otherwise return an empty body with 404.
+
+5. Step 5 — Implement POST create
+   - Parse and validate input (at least `title` not null) using `MovieInput`.
+   - Compute the new id: `1` if no movies yet, else `max(m.id) + 1`.
+   - Create and append a `Movie`, then return it as JSON (200).
+
+6. Step 6 — Implement PUT update
+   - Find the movie by `id`. Return 404 if missing.
+   - Merge the provided fields into the existing `Movie` and return the updated movie as JSON (200).
+
+7. Step 7 — Implement DELETE
+   - Find by `id`, return 404 if missing.
+   - Remove from the list and return an empty body with status 204.
+
+8. Step 8 — Test after each step
+   - Use Postman or PyCharm’s HTTP client (see section 9) to verify each endpoint before proceeding.
+
+---
+
+## 4) Main application
 
 **File:** `app.py`
 ```python
@@ -88,7 +126,7 @@ if __name__ == "__main__":
 
 ---
 
-## 4) Model classes
+## 5) Model classes
 
 **File:** `movie.py`
 ```python
@@ -131,7 +169,7 @@ class MovieInput:
 
 ---
 
-## 5) Controller
+## 6) Controller
 
 **File:** `controller.py`
 ```python
@@ -199,7 +237,7 @@ def movies_bp(movies: List[Movie]) -> Blueprint:
 ```
 ---
 
-## 6) Flask-specific notes vs. Spring Boot (for people transferring from the latter to the former)
+## 7) Flask-specific notes vs. Spring Boot (for people transferring from the latter to the former)
 - **Run mode**: Flask uses `app.run(debug=True)` in development. Spring Boot runs via `SpringApplication.run(...)`.
 - **CORS**: Spring uses `@CrossOrigin`; Flask needs `flask-cors` installed + `CORS(app)`.
 - **Configuration**: No `application.properties` file. Use `app.config` or environment variables if needed.
@@ -207,7 +245,7 @@ def movies_bp(movies: List[Movie]) -> Blueprint:
 
 ---
 
-## 7) Run the application (PyCharm)
+## 8) Run the application (PyCharm)
 1. Right-click `app.py` → **Run 'app'**.
 2. Confirm console shows:
    ```
@@ -217,7 +255,7 @@ def movies_bp(movies: List[Movie]) -> Blueprint:
 
 ---
 
-## 8) Quick tests with Postman
+## 9) Quick tests with Postman
 
 To test your API endpoints, use [Postman](https://www.postman.com/downloads/):
 
