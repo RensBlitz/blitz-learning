@@ -1,0 +1,10 @@
+.code-editor {
+  height: 100%;
+  border: 1px solid #d1d5da;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.code-editor .monaco-editor {
+  font-family: 'SF Mono', Monaco, Inconsolata, 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}

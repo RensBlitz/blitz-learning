@@ -1,0 +1,32 @@
+.preview-content {
+  padding: 20px;
+  min-height: 200px;
+}
+
+.preview-error {
+  padding: 20px;
+  background-color: #ffebee;
+  border: 1px solid #ffcdd2;
+  border-radius: 4px;
+  color: #c62828;
+}
+
+.preview-error h4 {
+  margin: 0 0 10px 0;
+  color: #d32f2f;
+}
+
+.preview-error pre {
+  margin: 0;
+  font-family: monospace;
+  font-size: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.preview-loading {
+  padding: 20px;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
